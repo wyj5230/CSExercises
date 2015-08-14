@@ -10,7 +10,9 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            
+            Console.WriteLine("Input a number:");
+            Double x = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("The square of the number is {0:0.000}", Math.Sqrt(x));
         }
     }
 }

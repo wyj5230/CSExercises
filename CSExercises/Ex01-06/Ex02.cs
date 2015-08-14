@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace CSExercises
 {
-    public class Ex02
+    class Ex02
     {
-        public static void Main(string[] args)
+        static void Main()
         {
-            
+            Console.WriteLine("Input an integer:");
+            int x = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("The square of the number is {0}",x*x);
         }
     }
 }

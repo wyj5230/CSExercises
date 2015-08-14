@@ -6,11 +6,14 @@ using System.Threading.Tasks;
 
 namespace CSExercises
 {
-    public class Ex01
+    class Ex01
     {
-        public static void Main(string[] args)
+        static void Main()
         {
-            
+            Console.WriteLine("Input your name:");
+            string name = Console.ReadLine();
+            Console.WriteLine("good morning {0}", name);
+            Console.ReadKey(); 
         }
     }
 }

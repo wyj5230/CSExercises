@@ -10,7 +10,10 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            
+            double c;
+            Console.WriteLine("PLZ input temperature in Centigrade:");
+            c = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("The temperature in Fahrenheit is {0}",1.8*c+32);
         }
     }
 }
